@@ -6,6 +6,10 @@ from matplotlib import pyplot as plt
 
 st.set_page_config(layout="wide")
 
+st.write("""
+## Predator-Prey System Simulation
+""")
+
 # timestep determines the accuracy of the euler method of integration
 timestep = 0.0001
 # amplitude of noise term
